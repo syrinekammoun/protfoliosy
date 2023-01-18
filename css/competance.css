@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+.nav {
+    overflow: hidden;
+    background-color:#cf8787;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    z-index: 1000
+}
+.nav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+}
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+.nav a.active {
+    background-color:white ;
+    color: black;
+}
+.dec{
+    width: 10px;
+    height: 160%;
+    background-color: #38388d;
+    position: absolute;
+}
+
+.titre{
+    text-align: center;
+    justify-content: center;
+}
+
+.info{
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.left{
+    flex: 1;
+    width: 50%;
+}
+.right{
+    flex:1;
+    width: 50%;
+    text-align: center;
+}
+
+.icon{
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+}
+.comp{
+    margin: 80px;
+}
+.compet{
+    display: flex;
+}
+.competance{
+    display: flex;
+    height: 100%;
+}
+.entrp{
+    margin: 100px 0px 0px 50px;
+}
